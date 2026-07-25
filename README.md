@@ -6,31 +6,31 @@ I used the Superstore dataset (retail store data with orders, customers, product
 
 # Skills used in this project
 
-- Excel: data cleaning, formatting, formulas
-- SQL: querying and analysis (MySQL)
-- Power BI: dashboard and DAX measures
+- Excel: data cleaning, formatting, formulas  
+- SQL: querying and analysis (MySQL)  
+- Power BI: dashboard and DAX measures  
 
 # Data cleaning
 
-Before starting, I had to clean the raw data a bit:
+Before starting, I needed to clean the raw data a bit:
 
-- Column names had some spelling mistakes, fixed those
-- Discount column was stored as text with a % sign, converted it to a number
-- Date columns had mixed formats, had to standardize them
+- I fixed spelling mistakes in the column names.  
+- The discount column was stored as text with a % sign, so I converted it to a number.  
+- Date columns had mixed formats, so I standardized them.  
 
 # Part 1: Excel
 
-Before jumping into SQL, I did some basic cleaning and formatting work in Excel on a sample of the data. This is more of a warm-up step, but wanted to show it since Excel is still something recruiters check for.
+Before diving into SQL, I did some basic cleaning and formatting in Excel on a sample of the data. This was a warm-up step, but I wanted to show it since recruiters still look for Excel skills.  
 
-* What I did,
+* What I did,  
 
-- Removed duplicate order rows (some rows were repeated in the raw data)
-- Trimmed extra spaces from customer names
-- Fixed inconsistent text case in the category column (some were in ALL CAPS)
-- Standardized the date format
-- Applied number formatting (currency for sales/profit, percentage for discount)
-- Used conditional formatting to highlight negative profit in red
-- Built a small summary table using SUMIFS formulas to get total sales, profit and profit margin by category, instead of typing the numbers manually
+- I removed duplicate order rows since some rows were repeated in the raw data.  
+- I trimmed extra spaces from customer names.  
+- I fixed inconsistent text case in the category column because some were in ALL CAPS.  
+- I standardized the date format.  
+- I applied number formatting, using currency for sales and profit and percentage for discount.  
+- I used conditional formatting to highlight negative profit in red.  
+- I built a small summary table using SUMIFS formulas to calculate total sales, profit, and profit margin by category, instead of typing the numbers manually.  
 
 # Part 2: SQL Analysis
 
